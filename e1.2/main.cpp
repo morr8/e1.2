@@ -1,15 +1,10 @@
-//
-//  main.cpp
-//  e1.2
-//
-//  Created by Sergio campos on 5/19/19.
-//  Copyright © 2019 Sergio campos. All rights reserved.
-//
+//•• E1.2 Write a program that prints the sum of the first ten positive integers, 1 + 2 + … + 10.
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    cout << 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 << endl;
 }
